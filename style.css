@@ -1,0 +1,90 @@
+ul.nav {
+  padding-left: 0px;
+  background-image: url(paper.jpg);
+  text-align: center;
+  font-size: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dotted;
+  border-radius: 10px;
+}
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul.nav > li:hover {
+  background-image: url(paper.jpg);
+  outline-style: dotted;
+  outline-color: black;
+}
+ul.nav > li > a {
+  color: grey;
+  text-decoration: none;
+  font-size: 30px;
+}
+.title {
+  font-size: 400%;
+  text-align: center;
+  width: 40%;
+  background-image: url(paper.jpg);
+  border-style: dotted;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+}
+body {
+  background-image: url(wood.jpg);
+  background-color: #cccccc;
+  background-size: 100%;
+}
+.two-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col1 {
+  background-image: url(paper.jpg);
+  width: 50%;
+  border-style: dotted;
+  border-radius: 20px;
+  font-size: 130%;
+  padding-left: 10px;
+}
+.col2 {
+  background-image: url(paper.jpg);
+  width: 40%;
+  border-style: dotted;
+}
+
+.textblock {
+  background-image: url(paper.jpg);
+  width: 95%;
+  border-style: dotted;
+  border-radius: 20px;
+  font-size: 130%;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+}
+.textinblock {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contactgegevenscontainer {
+  background-image: url(paper.jpg);
+  width: 20%;
+  border-style: dotted;
+  border-radius: 20px;
+  font-size: 130%;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
