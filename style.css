@@ -38,6 +38,7 @@ body {
   background-image: url(wood.jpg);
   background-color: #cccccc;
   background-size: 100%;
+  font-family: monospace;
 }
 .two-col {
   display: flex;
