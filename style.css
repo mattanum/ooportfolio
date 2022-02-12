@@ -61,14 +61,16 @@ body {
 
 .textblock {
   background-image: url(paper.jpg);
-  width: 95%;
+  width: 20%;
   border-style: dotted;
   border-radius: 20px;
   font-size: 130%;
   padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
-  height: 70%;
+  text-align: center;
+  height: 80%
 }
 .textinblock {
     margin: 0;
